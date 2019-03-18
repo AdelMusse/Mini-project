@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     .container, .container2, body{
         width:100%;
     }
@@ -13,7 +13,6 @@ body {
 /*home page*/
 .container {
     width: 50%;
-    height: 620px;
     padding: 5px;
     margin: auto;
     text-align: center;
