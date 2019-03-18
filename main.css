@@ -5,15 +5,18 @@ body {
     background: url(images/bg.jpg) no-repeat;
     background-size: cover;
 }
+/*home page*/
 .container {
-    width: 600px;
+    width: 50%;
+    height: 620px;
+    padding: 5px;
     margin: auto;
-    margin-top: 4%;
     text-align: center;
     font-family: 'Courier New', sans-serif;
     background-color: rgba(0, 0, 0, 0.4);
+    border-radius:2px;
 }
-.box-image {
+.image {
     padding-top: 1%;
     height: 250px;
     width: 250px;
@@ -31,6 +34,33 @@ body {
     color: aliceblue;
     font-size: 20px; 
 }
+/*about page*/
+.container2 {
+    width: 90%;
+    height: 100%;
+    margin-top: 100px;
+    padding: 5px;
+    margin: 80px auto auto auto;
+    text-align: center;
+    font-family: 'Courier New', sans-serif;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+}
+.container2 h1{
+    color: white;
+    text-align: left;
+    padding-bottom: 2px;
+    padding-left: 7px;
+}
+.container2 p{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/** icons*/
 .container ul{
     margin: 0;
     padding: 0;
@@ -39,17 +69,29 @@ body {
     display: inline-block;
     list-style: none;
 }
-.fcc-profile{
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    border-radius: 10px;
+.fcc-profile {
+    width: 60px;
+    height: 60px;
+    margin-right:5px;
+    border-radius: 15px;
 }
-.github-profile{
-    width: 70px;
-    height: 70px;
-    background-color: white;
-    border-radius: 10px;
+.github-profile {
+    width: 60px;
+    height: 60px;
+}
+a:hover .fcc-profile{
+    width: 50px;
+    height: 50px;
+    transition-property: width, height;
+    transition-duration: 1s;
+    transition-delay: 2ms;
+}
+a:hover .github-profile{
+    width: 50px;
+    height: 50px;
+    transition-property: width, height;
+    transition-duration: 1s;
+    transition-delay: 2ms;
 }
 /** navigation*/
 .navigation{
@@ -67,4 +109,18 @@ body {
     font-size: 30px;
     color: white;
     text-decoration: none;
+}
+.navigation a:hover {
+    background:linear-gradient(to left, rgba(255,0,0,0), rgb(255, 143, 143));
+  }
+/*footer*/
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    font-size: 15px;
 }
