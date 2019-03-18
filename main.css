@@ -1,3 +1,8 @@
+@media screen and (max-width: 600px){
+    .container, .container2, body{
+        width:100%;
+    }
+}
 body {
     width: 100%;
     margin: 0;
