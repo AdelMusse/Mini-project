@@ -13,18 +13,16 @@ body {
 /*home page*/
 .container {
     width: 50%;
-    height: 620px;
     padding: 5px;
     margin: auto;
     text-align: center;
     font-family: 'Courier New', sans-serif;
     background-color: rgba(0, 0, 0, 0.4);
-    border-radius:2px;
+    border-radius: 2px;
 }
 .image {
     padding-top: 1%;
-    height: 250px;
-    width: 250px;
+    width: 50%;
     border-radius: 50%;
 }
 .container h1 {
@@ -120,7 +118,6 @@ a:hover .github-profile{
   }
 /*footer*/
 .footer{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
